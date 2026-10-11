@@ -1,0 +1,122 @@
+﻿TO DO
+  - Réindexaton automatique
+  - Gestion des favoris
+  - Choix des colonnes
+  - Fenetre pour les options (dont associations d'extensions)
+  - Suivi des fichiers ouverts
+  - Suppresion de la barre d'avancement de lecture
+
+ Version 1.03
+-----------------
+  * Suppression recherche dans ECM
+
+
+ Version 1.02
+-----------------
+  * Possibilité de mettre une description pour un fichier "nom_du_fichier # Description"
+  * Possibilité de mettre des liens ecm dans une base "nom_du_fichier # Description;0;ecm;ObjectID;0"
+  * Petite optimisation de la lecture
+ 
+ Version 1.01
+-----------------
+  * Correction de la MAJ base locale (mauvaise comparaison des dates introduite en 1.00)
+
+ Version 1.00
+-----------------
+  * Plus robuste lecture database (avant erreur sur mauvais répertoire d'index < 0 => plantage)
+  * Correction de la MAJ base locale (mauvaise comparaison des dates)
+  * MAJ des timeout
+
+ Version 0.99
+-----------------
+  * Indexation - Ajout des dates
+  * Indexation - Si folder est null, le répertoire donné en line Input
+  * Bug dernier fichier non affiché
+  * Nombre de fichiers max affichés en option (fichier option)
+  * EN COURS THREADER RECHERCHE ECM
+
+ Version 0.98
+-----------------
+  * Amélioration de la détection des répertoires réseau non accessibles, augmentation du timeout
+  * Ajout des dates de fichier
+  * Recherche dans ECM
+
+ Version 0.97
+-----------------
+  * Amélioration de l'utilisation du répertoire temp
+  * Ajout d'un timeout sur la recherche des bases
+
+ Version 0.96
+-----------------
+  * Ajout de l'option "ignorer les séparateurs"
+
+Version 0.95
+-----------------
+  * Catalogues compresses en .gz
+  * Lecture rapide des catalogues
+  * Copie des catalogues distants en local (par défaut c:\temp)
+  * Ajout "Toujours visible"
+  * FIX :
+    - Plantage en cas de regexp mal formée
+	- Plantage en systray
+
+Version 0.94
+-----------------
+  * Ajout du bouton -> recharger les catalogues
+
+Version 0.93
+-----------------
+  * Possibilité d'ajouter un catalogue réseau.
+  * Pas de mise à jour du catalogue réseau
+
+Version 0.92
+-----------------
+  * FIX :
+    - Ouverture du fichier d'options si l'executable est dans le réseau
+
+
+Version 0.91
+-----------------
+  * FIX :
+    - Réindexation des catalogues (fichier bloqué lors de la lecture)
+	- Suppression du texte en gras dans les résultats
+
+Version 0.9
+-----------------
+  * FIX :
+    - Progressbar lors de l'ouverture/création des catalogues
+
+Version 0.8
+-----------------
+  * Affichage dynamique des résultats
+  * Optimisation affichage (bliking)
+
+Version 0.7
+-----------------
+  * Ajout des icones associées à chaque type de fichier
+  * Ajout d'une option pour afficher les fichiers en gris s'ils n'existent plus
+  * Taille affichée en "Ko"
+  * Pour les répertoires, on affiche ni l'extension ni la taille
+
+Version 0.6
+-----------------
+  * Recherche texte simple / expression regulière
+  * Indexe uniquement les fichiers dont l'extension est fourni
+  * Optimisation de la vitesse (ouerture de base + recherche)
+  * Texte en francais
+  * Focus sur le texte de recherche lorsque appel par hotkey
+  * FIX :
+    - Ajout tests si fichier d'option incomplet
+    - Largeur des colonnes fixes
+	- Lecture de la date d'un catalogue
+
+Version 0.5
+-----------------
+  * Refonte d'une partie du code 
+  * Gestion de plusieurs catalogues (1 catalogue = 1 répertoire indexé)
+  * Raccourci pour minimiser/maximiser fenetre (par défaut Win+H)
+  * Possibilité de définir un programme pour ouvrir un type de fichier
+  * FIX :
+     - Erreur lors du parcours de répertoires a plus de 250 charactères
+	 - Fonction localiser sous Vista/7
+
