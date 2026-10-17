@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/DatabaseCreator/DATABASES/WIMF_DATABASE_Bureau.txt
+/DatabaseCreator/DATABASES/WIMF_DATABASE_Bureau.txt.gz
+/DatabaseCreator/DATABASES/WIMF_DATABASE_Disque.txt
+/DatabaseCreator/DATABASES/WIMF_DATABASE_Disque.txt.gz
+/DatabaseCreator/DATABASES/WIMF_DATABASE_Documents.txt
+/DatabaseCreator/DATABASES/WIMF_DATABASE_Documents.txt.gz
